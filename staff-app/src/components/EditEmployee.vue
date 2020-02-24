@@ -5,7 +5,7 @@
       <h3>{{employee.title}} </h3>
       <h3>Email: {{employee.email}}</h3>
       <h3>Tel: 
-          <input type="text">{{employee.phoneNumber}}
+          <input type="text" placeholder=>{{employee.phoneNumber}}
           </h3>
       <router-link v-bind:to="'/staff/' + employee.id">
       
